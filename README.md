@@ -38,3 +38,6 @@ Check out our [![Twitter URL](https://img.shields.io/twitter/url/https/twitter.c
 To contribute data on metabolic rates, fecundity or development of ectotherms, please contact us; email: sharetrait2022@gmail.com
    
 We are actualy working in generating  spreadsheet-type templates (.csv; .xls) together with files describing the metadata. It will facilitate contributors with the data entry process. More news soon!!
+
+## Download data from ShareTrait
+More news soon!!
