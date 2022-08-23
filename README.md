@@ -34,10 +34,12 @@ The great potential of the proposed approach is illustrated by an earlier initia
 ## Further information
 Check out our [![Twitter URL](https://img.shields.io/twitter/url/https/twitter.com/share.svg?style=social&label=Follow%20%40share_trait)](https://twitter.com/share_trait). If you want to know more about this project, please contact: Wilco Verberk (email: w.verberk@science.ru.nl).
 
-## Contribute new data to ShareTrait
-To contribute data on metabolic rates, fecundity or development of ectotherms, please contact us; email: sharetrait2022@gmail.com
-   
-We are actualy working in generating  spreadsheet-type templates (.csv; .xls) together with files describing the metadata. It will facilitate contributors with the data entry process. More news soon!!
+## Contribute data to ShareTrait
+We are working on generating spreadsheet-type templates (.csv; .xls) together with files describing the metadata. It will facilitate contributors with the data entry process. 
+To select the appropriate template for the data you want to share, we recommend you answer a brief questionnaire, one for each trait, which will guide you in selecting the most appropriate template for your dataset:
 
-## Download data from ShareTrait
-More news soon!!
+-Metabolic rate(https://docs.google.com/forms/d/1nJz43-heIvsVeY551a39t49HchZ9HSHoJcysRfBqJyQ/edit?usp=drivesdk&pli=1)
+-Fecundity (under construction)
+-Development (under construction)
+
+After answering the questionnaire, download and fill in the template, please send us your dataset and its associated article to this email: sharetrait2022@gmail.com. 
