@@ -37,9 +37,7 @@ Check out our [![Twitter URL](https://img.shields.io/twitter/url/https/twitter.c
 ## Contribute data to ShareTrait
 We are working on generating spreadsheet-type templates (.csv; .xls) together with files describing the metadata. It will facilitate contributors with the data entry process. 
 To select the appropriate template for the data you want to share, we recommend you answer a brief questionnaire, one for each trait, which will guide you in selecting the most appropriate template for your dataset:
-
--[Metabolic rate](https://docs.google.com/forms/d/1nJz43-heIvsVeY551a39t49HchZ9HSHoJcysRfBqJyQ/edit?usp=drivesdk&pli=1)
--Fecundity (under construction)
--Development (under construction)
-
+- [Metabolic rate](https://docs.google.com/forms/d/1nJz43-heIvsVeY551a39t49HchZ9HSHoJcysRfBqJyQ/edit?usp=drivesdk&pli=1)
+- Fecundity (under construction)
+- Development (under construction)
 After answering the questionnaire, download and fill in the template, please send us your dataset and its associated article to this email: sharetrait2022@gmail.com. 
