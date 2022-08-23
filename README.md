@@ -34,7 +34,7 @@ The great potential of the proposed approach is illustrated by an earlier initia
 ## Contribute data to ShareTrait
 We are working on generating spreadsheet-type templates (.csv; .xls) together with files describing the metadata. It will facilitate contributors with the data entry process. 
 To select the appropriate template for the data you want to share, we recommend you answer a brief questionnaire, one for each trait, which will guide you in selecting the most appropriate template for your dataset:
-- [Metabolic rate](https://docs.google.com/forms/d/1nJz43-heIvsVeY551a39t49HchZ9HSHoJcysRfBqJyQ/edit?usp=drivesdk&pli=1)
+- [Metabolic rate](https://forms.gle/84GE1ShmafAG6VqC9)
 - Fecundity (work in progress)
 - Development (work in progress)
 
