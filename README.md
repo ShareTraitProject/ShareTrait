@@ -33,11 +33,11 @@ The great potential of the proposed approach is illustrated by an earlier initia
 ## Contribute data to ShareTrait
 We are working on generating spreadsheet-type templates together with files describing the metadata. It will facilitate contributors with the data entry process. 
 To select the appropriate template for the data you want to share, we recommend you answer a brief questionnaire, one for each trait, which will guide you in selecting the most appropriate template for your dataset:
-- [Metabolic rate](https://forms.gle/84GE1ShmafAG6VqC9)
-- [Fecundity](https://forms.gle/pvKzSztVNhkgBFhB9)
-- [Development](https://forms.gle/V6Nig4eaE3joTzDw8)
+- [Metabolic rate]()
+- [Fecundity]()
+- [Development]()
 
-After answering the questionnaire, download and fill in the template, please send us your dataset and its associated article to this email: sharetrait2022@gmail.com. 
+After answering the questionnaire, download and fill in the template, please send us your dataset and its associated article to this email: sharetrait2022@gmail.com.
 
 ## Further information
 Check out our [![Twitter URL](https://img.shields.io/twitter/url/https/twitter.com/share.svg?style=social&label=Follow%20%40share_trait)](https://twitter.com/share_trait). If you want to know more about this project, please contact: Wilco Verberk (email: w.verberk@science.ru.nl).
