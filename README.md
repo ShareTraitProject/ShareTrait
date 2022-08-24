@@ -33,9 +33,9 @@ The great potential of the proposed approach is illustrated by an earlier initia
 ## Contribute data to ShareTrait
 We are working on generating spreadsheet-type templates together with files describing the metadata. It will facilitate contributors with the data entry process. 
 To select the appropriate template for the data you want to share, we recommend you answer a brief questionnaire, one for each trait, which will guide you in selecting the most appropriate template for your dataset:
-- [Metabolic rate]()
-- [Fecundity]()
-- [Development]()
+- [Metabolic rate](https://forms.gle/RS8aDiTn4R5n8kUX9)
+- [Fecundity](https://forms.gle/hQZCry7exNu45tku6)
+- [Development](https://forms.gle/9FqRNzkEKpxWLtku5)
 
 After answering the questionnaire, download and fill in the template, please send us your dataset and its associated article to this email: sharetrait2022@gmail.com.
 
