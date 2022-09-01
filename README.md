@@ -21,6 +21,7 @@ The great potential of the proposed approach is illustrated by an earlier initia
 - [Wilco Verberk](https://www.ru.nl/personen/verberk-w/) 
 - [Jacintha Ellers](https://www.amsterdamecology.nl/principal-investigators/jacintha-ellers/)
 - [Matty Berg](https://research.vu.nl/en/persons/matty-berg)
+- [Félix Leiva](https://github.com/felixpleiva)
 
 ## Collaborators of ShareTrait
 
