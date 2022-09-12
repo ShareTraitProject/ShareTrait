@@ -5,8 +5,7 @@ ShareTrait is a project funded by the Dutch Research Council [NWO](https://www.n
 ## Summary of ShareTrait
 
 More and more data are being collected on species traits, as a means to understand how species respond and interact with their environment. Despite these
-efforts, effective integration of such data is hampered by inadequate standardization and insufficient sharing of metadata. **This project will streamline the
-collection, synthesis and reuse of data on key species traits (metabolic rate, development and fecundity)**. By developing pipelines for data reformatting and standardization, we will enable individual researchers to easily contribute their data to our new database, allowing the research community to tap into the wealth of existing data and achieve a synthesis.
+efforts, effective integration of such data is hampered by inadequate standardization and insufficient sharing of metadata. **This project will streamline the collection, synthesis and reuse of data on key species traits (metabolic rate, development and fecundity)**. By developing pipelines for data reformatting and standardization, we will enable individual researchers to easily contribute their data to our new database, allowing the research community to tap into the wealth of existing data and achieve a synthesis.
 
 ## The vision of ShareTrait
 A longstanding goal in ecology is to distil general principles that govern species-environment relationships and apply these to protect biodiversity. Trait-based ecology has brought us closer to achieving this goal. For instance, by focusing on species traits rather than species identity, ecological studies can be made comparable across locations, scales and species composition. More and more data is collected on a wide variety of species traits. With the advent of open science, these data become increasingly Findable (F) and Accessible (A) due to online publishing in appendices, data repositories or databases. However, persistent barriers remain to data being Interoperable (I) and Reusable (R). These barriers have largely been solved in other fields (notably molecular biology and plant biology), by implementing rigorous standards.
@@ -22,6 +21,7 @@ The great potential of the proposed approach is illustrated by an earlier initia
 - [Wilco Verberk](https://www.ru.nl/personen/verberk-w/) 
 - [Jacintha Ellers](https://www.amsterdamecology.nl/principal-investigators/jacintha-ellers/)
 - [Matty Berg](https://research.vu.nl/en/persons/matty-berg)
+- [Félix Leiva](https://github.com/felixpleiva)
 
 ## Collaborators of ShareTrait
 
@@ -32,13 +32,13 @@ The great potential of the proposed approach is illustrated by an earlier initia
 - [Tim Blackburn](https://tblackburn4.wixsite.com/blackburninvasion)
 
 ## Contribute data to ShareTrait
-We are working on generating spreadsheet-type templates (.csv; .xls) together with files describing the metadata. It will facilitate contributors with the data entry process. 
+We are working on generating spreadsheet-type templates together with files describing the metadata. It will facilitate contributors with the data entry process. 
 To select the appropriate template for the data you want to share, we recommend you answer a brief questionnaire, one for each trait, which will guide you in selecting the most appropriate template for your dataset:
-- [Metabolic rate](https://forms.gle/84GE1ShmafAG6VqC9)
-- [Fecundity](https://forms.gle/pvKzSztVNhkgBFhB9)
-- Development (work in progress)
+- [Metabolic rate](https://forms.gle/RS8aDiTn4R5n8kUX9)
+- [Fecundity](https://forms.gle/hQZCry7exNu45tku6)
+- [Development](https://forms.gle/9FqRNzkEKpxWLtku5)
 
-After answering the questionnaire, download and fill in the template, please send us your dataset and its associated article to this email: sharetrait2022@gmail.com. 
+After answering the questionnaire, download and fill in the template, please send us your dataset and its associated article to this email: sharetrait2022@gmail.com.
 
 ## Further information
 Check out our [![Twitter URL](https://img.shields.io/twitter/url/https/twitter.com/share.svg?style=social&label=Follow%20%40share_trait)](https://twitter.com/share_trait). If you want to know more about this project, please contact: Wilco Verberk (email: w.verberk@science.ru.nl).
