@@ -38,12 +38,15 @@ We are working on generating tailor-made spreadsheet templates. It will help con
 - [Fecundity](https://forms.gle/XKUENHXgzPYwVj3V9)
 - [Metabolic rate]( https://forms.gle/fqXQktCYDi8kCcpu5)
 
-After receiving the answers to this questionnaire, we will send you a prefilled template (.csv) with your provided information. We will ask dataset contributors to provide feedback for some missing information and to check for consistency as well.
-After that, please send us by email sharetrait2022@gmail.com the following information:
+To answer this questionnaire you will need:
 
 1. Your dataset in a spreadsheet format (.csv)
 2. The pdf file of the publication associated with the dataset
-3. Feedback (if it exists) on the pre-filled template
+
+After receiving the answers to this questionnaire, we will send you a prefilled template (.csv) with your provided information. We will ask dataset contributors to provide feedback for some missing information and to check for consistency as well.
+For further questions, contact the ShareTrait team ( sharetrait2022@gmail.com). Read more about the goals of the ShareTrait project here
+
+Please forward this questionnaire to anyone you think may be interested in sharing data. We plan to make this database publicly available on our website. For further questions, contact Wilco Verberk (w.verberk@science.ru.nl). 
 
 
 ## Further information
