@@ -44,7 +44,7 @@ To answer this questionnaire you will need:
 2. The pdf file of the publication associated with the dataset
 
 After receiving the answers to this questionnaire, we will send you a prefilled template (.csv) with your provided information. We will ask dataset contributors to provide feedback for some missing information and to check for consistency as well.
-For further questions, contact the ShareTrait team ( sharetrait2022@gmail.com). Read more about the goals of the ShareTrait project here
+For further questions, contact the ShareTrait team ( sharetrait2022@gmail.com).
 
 Please forward this questionnaire to anyone you think may be interested in sharing data. We plan to make this database publicly available on our website. For further questions, contact Wilco Verberk (w.verberk@science.ru.nl). 
 
