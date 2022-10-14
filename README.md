@@ -16,7 +16,9 @@ __2. The pdf file of the publication associated with the dataset__
 
 After you have completed the questionnaire, you will receive a prefilled template (.csv) with the information you provided. You will provide feedback for some missing information, and check for consistency as well.
 
-For further questions, contact the ShareTrait team (sharetrait2022@gmail.com). Please forward this questionnaire to anyone you think may be interested in sharing data. By answering this questionnaire and providing data to the ShareTrait project, you will be asked if you are interested in participating as a co-author on our planned papers.
+For further questions, contact the ShareTrait team (sharetrait2022@gmail.com). 
+
+Please forward this questionnaire to anyone you think may be interested in sharing data. By answering this questionnaire and providing data to the ShareTrait project, you will be asked if you are interested in participating as a co-author on our planned papers.
 
 ## The vision of ShareTrait
 A longstanding goal in ecology is to distil general principles that govern species-environment relationships and apply these to protect biodiversity. Trait-based ecology has brought us closer to achieving this goal. For instance, by focusing on species traits rather than species identity, ecological studies can be made comparable across locations, scales and species composition. More and more data is collected on a wide variety of species traits. With the advent of open science, these data become increasingly Findable (F) and Accessible (A) due to online publishing in appendices, data repositories or databases. However, persistent barriers remain to data being Interoperable (I) and Reusable (R). These barriers have largely been solved in other fields (notably molecular biology and plant biology), by implementing rigorous standards.
