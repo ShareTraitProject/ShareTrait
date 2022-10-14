@@ -46,7 +46,7 @@ __2. The pdf file of the publication associated with the dataset__
 
 After you have completed the questionnaire, you will receive a prefilled template (.csv) with the information you provided. You will provide feedback for some missing information, and check for consistency as well.
 
-For further questions, contact the ShareTrait team (sharetrait2022@gmail.com). Please forward this questionnaire to anyone you think may be interested in sharing data. By answering this questionnaire and providing data to the ShareTrait project, you will be asked you are interested in participating as a co-author on our planned papers.
+For further questions, contact the ShareTrait team (sharetrait2022@gmail.com). Please forward this questionnaire to anyone you think may be interested in sharing data. By answering this questionnaire and providing data to the ShareTrait project, you will be asked if you are interested in participating as a co-author on our planned papers.
 
 
 ## Further information
