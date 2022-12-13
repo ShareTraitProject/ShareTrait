@@ -32,8 +32,6 @@ In the fields of animal ecology and animal physiology, the application of FAIR p
 
 Here we propose to develop a platform for making trait data interoperable and reusable via pipelines that streamline the formatting of datasets for integrated use. Key ingredients are to embrace the variation in methodology by gathering metadata on how the data were acquired and to focus on three traits that are universal in ectotherm animals: metabolism, development and fecundity. Advantages of these traits are (i) their tight relationship to population dynamics, (ii) their commonality to all animals, and (iii) the abundance of data waiting to be synthesized. These traits on essential functions in animal biology can be analysed for major patterns in energy usage and expenditure across the animal kingdom and for identifying trade-offs between these functions.
 
-The great potential of the proposed approach is illustrated by an earlier initiative focussing on the leaf-economic-spectrum in plants, where the focus is also on a key process (photosynthesis) and corresponding traits (leaf characteristics). Previous studies compiling trait data have been tailored to a specific analysis and as a result tend to be narrow in taxonomic scope or have incomplete metadata. In this proposal, the data are being collated, reformatted and synthesized for the purpose of interoperability and reuse itself, ultimately creating a valuable tool for researchers to answer their own study questions.
-
 ## Members of ShareTrait
 
 - [Wilco Verberk](https://www.ru.nl/personen/verberk-w/) 
