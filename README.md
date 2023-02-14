@@ -2,7 +2,7 @@
 More and more data are being collected on species traits, as a means to understand how species respond and interact with their environment. Despite these
 efforts, effective integration of such data is hampered by inadequate standardization and insufficient sharing of metadata. The **ShareTrait** project will streamline the collection, synthesis and reuse of data on key species traits (metabolic rate, development and fecundity). By developing pipelines for data reformatting and standardization, we will enable individual researchers to easily contribute their data to our new database, allowing the research community to tap into the wealth of existing data and achieve a synthesis. 
 
-ShareTrait started on **November 2022** through an internal launch involving different collaborators. Since then, we have received a handful of datasets. Since we are looking at the primary data, the cumulative number of records among all datasets is already **4,704 records**. So, imagine how much more we could accomplish with your contributions.
+ShareTrait started on **November 2022** through an internal launch involving different collaborators. Since then, we have received a handful of datasets. Since we are looking at the primary data, the cumulative number of records among all datasets is already **5,975 records**. So, imagine how much more we could accomplish with your contributions.
 
 ![Records in ShareTrait](https://user-images.githubusercontent.com/107040957/218768080-277b529e-45a6-412a-a394-2683d111150e.png)
 
