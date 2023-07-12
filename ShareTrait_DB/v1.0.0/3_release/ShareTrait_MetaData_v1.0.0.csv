@@ -1,0 +1,113 @@
+Column_name,Column_description,Units_or_categories
+dataset_id,Name of dataset following the format SurnameOfFirstAuthor_year,NA
+date_of_contribution,Date of dataset contribution,NA
+type_of_reference,Indicate whether the reference corresponds to a primary or secondary reference,primary; secondary
+doi_dataset,Indicate the Digital Object Identifier (doi) used to uniquely identify the dataset,NA
+doi_publication,Indicate the Digital Object Identifier (doi) used to uniquely identify the publication,NA
+comments_reference,Relevant notes about the reference,NA
+species_reported,Species according to the paper,NA
+phylum,Phylum of study species,NA
+class,Class of study species,NA
+order,Order of study species,NA
+family,Family of study species,NA
+genus,Genus according to the paper,NA
+species,Species after the harmonization of the taxonomy,NA
+source,Source used for harmonization of the taxonomy,"NCBI, ITIS, GBIF"
+taxo_level,Level of the taxonomy,NA
+comments_taxonomy,Relevant notes about the taxonomy,NA
+realm_general,Indicates where species inhabit,marine; intertidal; freshwater; terrestrial
+realm_specific,More specific details on habitat,"examples may include: alpin, desert, arctic, trees, rocky shore, mangrove, lake, pond, stream, river, open ocean"
+elevation_of_collection,Elevation where individuals were collected,meters above sea level
+depth_of_collection,Depth where individuals were collected,meters
+origin,Indicates the source where individuals were collected,"lab, captive, field, farm, hatchery, aquarium"
+location_description,Location where individuals were collected or study was conducted,Site_Region_Country
+comments_location,Relevant notes about the location,NA
+lat_decimal,"Latitude, in decimal degrees, where individuals were collected. Sign according to Hemisphere where the study was conducted: South is negative and North is positive.",NA
+long_decimal,"Longitude, in decimal degrees, where individuals were collected. Sign according to where the study was conducted: West is negative and East is positive",NA
+year_of_collection_initial,Initial year when individuals were collected,NA
+year_of_collection_final,Final year when individuals were collected,NA
+yyyymmdd_of_collection_initial,"Exact initial date of individuals collection following the format YYYYMMDD, for instance: 20220412",NA
+yyyymmdd_of_collection_final,"Exact final date of individuals collection following the format YYYYMMDD, for instance: 20220412",NA
+comments_timing,"Relevant notes about the timing of collection such as day, month, year, range of dates, etc",NA
+experiment_location,Indicates where the experiment to determine the fecundity was carried out,lab; field; NA
+maintained,Indicates whether individuals were maintained or not before the acclimation,yes; not; NA
+maintenance_duration_days,Duration in days of the maintenance,days
+maintenance_duration_generations,Number of generations in maintenance,generations
+maintenance_temperature,Maintenance temperature,Celcius degres
+maintenance_photoperiod,Maintenance photoperiod,hours of light:hours of darkness
+maintenance_humidity,Maintenance humidity,relative percentage
+maintenance_oxygen,Maintenance oxygen,NA
+maintenance_carbon_dioxide,Maintenance carbon dioxide,NA
+trait_name,Name of the trait reported,"development, fecundity, metabolic_rate"
+maintenance_salinity,Maintenance salinity,Practical Salinity Units
+maintenance_ph,Maintenance pH,NA
+maintenance_oxygen_units,Units used to express the oxygen during the maintenance,kPa: kilopascals; sat: saturation; mg_l: miligrams per liter; mL_L: mililiters per liter)
+maintenance_carbon_dioxide_units,Units used to express the carbon dioxide during the maintenance,ppm: parts per million; atm: atmosphere; micro-atm: micro atmostphere
+maintenance_food_type,Food type or description of the food used during the maintenance period,NA
+acclimated,Indicates whether individuals were acllimated or not,yes; not; NA
+acclimation_duration,Acclimation duration,days
+acclimation_temperature,Acclimation temperature,Celcius degrees
+acclimation_salinity,Acclimation salinity,Practical Salinity Units
+acclimation_ph,Acclimation pH,NA
+acclimation_oxygen,Acclimation oxygen,NA
+acclimation_carbon_dioxide,Acclimation carbon dioxide,NA
+acclimation_photoperiod,Acclimation photoperiod,NA
+acclimation_humidity,Acclimation humidity,relative percentage
+acclimation_oxygen_units,Units used to express the oxygen during acclimation,kPa: kilopascals; sat: saturation; mg_l: milligrams per liter; mL_L: milliliters per liter)
+acclimation_carbon_dioxide_units,Units used to express the carbon dioxide during acclimation,ppm: parts per million; atm: atmosphere; micro-atm: micro atmostphere
+acclimation_food_type,Food type or description of the food used during the acclimation period,NA
+test_temperature,Test temperature,Celcius degrees
+test_oxygen,Test oxygen,NA
+test_carbon_dioxide,Test carbon dioxide,NA
+test_oxygen_units,Units used to express the oxygen during testing,kPa: kilopascals; sat: saturation; mg_l: milligrams per liter; mL_L: milliliters per liter)
+test_carbon_dioxide_units,Units used to express the carbon dioxide during testing,ppm: parts per million; atm: atmosphere; micro-atm: micro atmostphere
+test_photoperiod,test photoperiod,hours of light:hours of darkness
+test_humidity,test humidity,relative percentage
+comments_experimental_conditions,Relevant notes about the experimental conditions,NA
+test_food_type,Food type or description of the food used during the testing,NA
+test_salinity,Test salinity,"Practical Salinity Units (mg NaCl l-1). Incorrect, Practical Salinities do not have units"
+test_ph,Test ph,NA
+strategy_of_protection,Indicates weather eggs are protected or not after laying,"protected (protected after laying, e.g. carried by the female, or attached to a substrate or floating in clumped masses), unprotected (spawned individually and freely into the environment); NA. See Hirst and López-Urrutia 2006 MEPS 326, 29 for a complete description"
+sex,Indicates the sex of individuals as defined by the researcher in the paper ,0: indeterminate; 1: male; 2: female; 3: pooled
+life_stage_general_initial,Life stage used at the start of the trial as defined by the researcher in the paper,egg; larva; juvenile; adult
+life_stage_general_final,Life stage used at the end of the trial as defined by the researcher in the paper,egg; larva; juvenile; adult
+life_stage_specific_initial,Specific life stage used at the start of the trial as defined by the researcher in the paper,for instance zoeae 1; embryo I
+life_stage_specific_final,Specific life stage used at the end of the trial as defined by the researcher in the paper,for instance zoeae 1; embryo I
+life_stage_general,life stage used during the experiment as defined by the researcher in the paper,egg; larva; juvenile; adult
+life_stage_specific,specific life stage used during the experiment as defined by the researcher in the paper,for instance zoeae 1; embryo I
+size_type,Type of size metric,FM: fresh body mass; DM: dry body mass; TL: total length; CL: cephalothorax length; CW: cephalotorax width; HW head width
+size_units,Unit of size metric,g:gram: mg:miligram; ug:microgram; kg:kilogram; mm:millimeter; cm:centimeter
+size_value_initial,Size value at the start of the development,Value of size metric
+size_value_final,Size value at the final of the development,Value of size metric
+size_value,Size value,value of size metric
+parental_size_type,Type of size metric of the parentals,FM: fresh body mass; DM: dry body mass; TL: total length; CL: cephalothorax length; CW: cephalotorax width
+parental_size_units,Unit of size metric of the parentals,g: gram; mg: miligram; kg:kilogram; mm:millimeter; cm: centimeter
+parental_size_value,Size value of the parentals,value of size metric
+parental_age,Age of the parental,NA
+parental_age_units,units used to define the age of the parental,"hours, days, weeks, months, years"
+mating,Indicates whether mating was allowed or not during the acclimation period,yes; not; NA
+method_type,Indicates the method used to estimate the fecundity,"weighting, counting,"
+fecundity_temporal_unit,Indicates the temporal scale does the fecundity unit encompass,"reproductive event (batch), reproductive season"
+reproductive_stage,Indicates the reproductive stage of individuals as defined by the researcher in the paper ,"mature, inmature"
+offspring_developmental_stage,Indicates the category for each developmental stage ,"egg, oocyte, postlarva, etc"
+offspring_size_type,Type of size metric of the offspring,"egg volume, egg area, oocyte volume, oocyte area, egg mass, egg length"
+offspring_size_units,Unit of size metric of the offspring,"g: gram; mg: miligram; kg:kilogram; mm:millimeter; cm: centimeter, um:micrometer"
+offspring_size_value,Size value of the offspring,value of offspring size
+metabolic_rate_type,Type of respirometry as defined by the researcher in the paper,"closed, open, flow-through"
+acclimation_chamber,Provide acclimation time after transfer to respirometry chamber,hours
+fasting_time,Provide duration of animal fasting before placement in respirometry chamber,days
+sensor_type,Sensor type used to measure the oxygen during the experiment,optic; polarographic; winkler
+respiration_volume,Volume of the empty respirometric chamber,mililiter
+delay_time,Provide wait (delay) time excluded from closed measurement cycles. Also referred as equilibration period.,hours
+respiratory_chamber_material,Material of respirometer,glass; plastic; acrylic
+incubation_time,Time spend in the respirometry chamber,hours
+respirometry_type,Type of respirometry as defined by the researcher in the paper,closed
+breathing_mode,Breathing mode based on the respiratory medium used in the experiment,aerial; aquatic
+trait_value,Measured value of the trait,NA
+trait_unit,Unit of the trait,"For development Days, for fecundity offspring number; for metabolic rates multiple units, but are standarized in the column ""trait_converted"""
+comments_trait,Relevant notes about the trait,NA
+trait_error_estimate,Error associated with trait estimate,NA
+trait_error_type,Type of metric used to estimate error of the trait,SD: standard deviation; SE: standard error; CI: 95% confidence intervals
+sample_size,Number of individuals tested for trait estimate,NA
+trait_converted,for meta,milligram of oxygen per hour per individual (mgO2/h/ind)
+fresh_mass_gram,fresh body mass of individuals,gram
