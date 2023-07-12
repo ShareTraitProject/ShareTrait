@@ -1,0 +1,4 @@
+"phylum" "class" "order" "family" "genus" "species" "species_reported"
+"1" "Arthropoda" "Insecta" "Hymenoptera" "Encyrtidae" "Trechnites" "Trechnites insidiosus" " Trechnites_insidiosus"
+"2" "Arthropoda" "Insecta" "Hemiptera" "Naucoridae" "Ilyocoris" "Ilyocoris cimicoides" " Ilyocorus_cimicoides"
+"3" "Chordata" "Amphibia" "Anura" "Pelodryadidae" "Ranoidea" "Ranoidea caerulea" " Litoria_caerulea"

@@ -1,0 +1,141 @@
+# ------------------------------------------------------------------------------
+# Script to create a phylogenetic tree from Open Tree of Life.
+
+# Code adapted by FP Leiva from: https://github.com/ASanchez-Tojar and http://blog.phytools.org/
+# ------------------------------------------------------------------------------
+# Cleaning working space
+rm(list = ls())
+
+# Check directory
+getwd()
+
+# Libraries
+library(phytools)
+library(rotl)
+library(dplyr)
+
+#load data
+df<-read.csv("../outputs/2_3_harmonized_taxonomy_ShareTrait.csv",sep = ",",header = TRUE)
+names(df)
+head(df)
+
+# exclude "Gryllus bimaculatus"
+df <- subset(df,df$species != "Gryllus bimaculatus")
+
+# generate list of species
+species <- sort(unique(df$species))
+
+# obtaining data frame listing the Open Tree identifiers potentially matching our
+# list of species.
+taxa <- tnrs_match_names(names = species)
+
+# there are typos in the species list
+nrow(taxa[taxa$approximate_match==FALSE,])
+
+# Lets see what are the typos, if exists
+taxa[taxa$approximate_match==TRUE,]
+
+# If there are typos, follow the example bellow to fix it
+
+#df$species_reported[df$species_reported == "old_name"] <- "corrected_name"
+
+# count species
+species <- sort(unique(df$species_reported))
+taxa <- tnrs_match_names(names = species)
+
+# exploring which species return more than one match
+taxa[taxa$number_matches != 1,]
+
+#Reasons to make sure we retrieve the correct data
+ott_id_tocheck <- taxa[taxa$number_matches != 1,"ott_id"]
+
+for(i in 1:length(ott_id_tocheck)){
+  print(inspect(taxa, ott_id = ott_id_tocheck[i]))
+}
+
+# retrieving phylogenetic relationships among taxa in the form 
+# of a trimmed sub-tree
+tree <- tol_induced_subtree(ott_ids = taxa[["ott_id"]], label_format = "name")
+
+plot(tree, cex= 1, label.offset =.1, no.margin = TRUE)
+
+# We are computing branch lengths for our tree following 
+# Grafen (1989)(https://royalsocietypublishing.org/doi/abs/10.1098/rstb.1989.0106)
+is.ultrametric(tree) # if not run line below
+tree_random.fixed<-compute.brlen(tree,method = "Grafen")
+is.ultrametric(tree_random.fixed)
+
+# Dealing with polytomies We can check for the existence of polytomies by running the 
+# following code. If polytomies exist, the output will be 
+# `FALSE`, and vice versa.
+
+is.binary(tree_random.fixed) 
+
+# There are some polytomies. To take care of these polytomies, we are going to use a 
+# randomization approach
+set.seed(111)
+tree_random.fixed <- multi2di(tree_random.fixed,random=TRUE)
+is.binary(tree_random.fixed)
+
+## add tip "Gryllus bimaculatus" to sister taxon "Gryllus campestris"
+tip<-"Gryllus_bimaculatus"
+sister<-"Gryllus_campestris"
+
+tree_random.fixed$tip.label
+tree_random.fixed<-bind.tip(tree_random.fixed,tip,where=which(tree_random.fixed$tip.label==sister),
+               position=0.5*tree_random.fixed$edge.length[which(tree_random.fixed$edge[,2]==
+                                                     which(tree_random.fixed$tip.label==sister))])
+
+length(tree_random.fixed$tip.label)
+#pdf("Phylogenetic tree for 35 species included in ShareTrait_DataBase_v1.0.0.pdf", width=10,height=10)
+jpeg("Phylogenetic tree for 35 species included in ShareTrait_DataBase_v1.0.0.jpg", width=10,height=10,units = "in", res = 300)
+plot(tree_random.fixed, cex= 1, label.offset =.05, no.margin = TRUE)
+dev.off()
+
+# and as a .tre for phylogenetic corrections or ploting
+write.tree(tree_random.fixed,"Phylogenetic tree for 35 species included in ShareTrait_DataBase_v1.0.0.tre")
+
+# load the dataset
+dat<-read.csv("../outputs/2_2_ShareTrait_DataBase.csv",sep = ",",header = TRUE)
+
+# and Merge taxonomy with data
+ShareTrait_DataBase <- left_join(dat,df, by = "species_reported")
+
+#reorder columns
+names(ShareTrait_DataBase)
+
+ShareTrait_DataBase <- ShareTrait_DataBase[, c("dataset_id", "date_of_contribution", "type_of_reference", "doi_dataset", "doi_publication", "comments_reference",
+                                               "species_reported","phylum", "class", "order","family", "genus", "species", "source", "taxo_level", "comments_taxonomy", 
+                                               "realm_general", "realm_specific", "elevation_of_collection", "depth_of_collection", "origin", "location_description", "comments_location", 
+                                               "lat_decimal", "long_decimal",
+                                               "year_of_collection_initial", "year_of_collection_final", "yyyymmdd_of_collection_initial", 
+                                               "yyyymmdd_of_collection_final", "comments_timing", "experiment_location", "maintained", 
+                                               "maintenance_duration_days", "maintenance_duration_generations", "maintenance_temperature",
+                                               "maintenance_photoperiod", "maintenance_humidity", "maintenance_oxygen", "maintenance_carbon_dioxide",
+                                               "trait_name", "maintenance_salinity", "maintenance_ph", "maintenance_oxygen_units",
+                                               "maintenance_carbon_dioxide_units", "maintenance_food_type", "acclimated", "acclimation_duration",
+                                               "acclimation_temperature", "acclimation_salinity", "acclimation_ph", "acclimation_oxygen",
+                                               "acclimation_carbon_dioxide", "acclimation_photoperiod", "acclimation_humidity", 
+                                               "acclimation_oxygen_units", "acclimation_carbon_dioxide_units", "acclimation_food_type", 
+                                               "test_temperature", "test_oxygen", "test_carbon_dioxide", "test_oxygen_units", 
+                                               "test_carbon_dioxide_units", "test_photoperiod", "test_humidity", "comments_experimental_conditions",
+                                               "test_food_type", "test_salinity", "test_ph", "strategy_of_protection", "sex",
+                                               "life_stage_general_initial", "life_stage_general_final", "life_stage_specific_initial",
+                                               "life_stage_specific_final", "life_stage_general", "life_stage_specific", "size_type",
+                                               "size_units", "size_value_initial", "size_value_final", "size_value", "parental_size_type",
+                                               "parental_size_units", "parental_size_value", "parental_age", "parental_age_units",
+                                               "mating", "method_type", "fecundity_temporal_unit", "reproductive_stage", "offspring_developmental_stage",
+                                               "offspring_size_type", "offspring_size_units", "offspring_size_value", "metabolic_rate_type",
+                                               "acclimation_chamber", "fasting_time", "sensor_type", "respiration_volume", "delay_time",
+                                               "respiratory_chamber_material", "incubation_time", "respirometry_type", "breathing_mode",
+                                               "trait_value", "trait_unit", "comments_trait", "trait_error_estimate", "trait_error_type",
+                                               "sample_size", "trait_converted", "fresh_mass_gram")]
+
+# Save the cleaned dataframe to a new file
+write.csv(ShareTrait_DataBase, "../3_release/ShareTrait_DataBase_v1.0.0.csv", row.names = FALSE)
+
+# saving session information with all packages versions for reproducibility purposes
+sink("../outputs/3_2_Phylogenetic_tree_ShareTrait_R_session.txt")
+sessionInfo()
+sink()
+# END OF SCRIPT
