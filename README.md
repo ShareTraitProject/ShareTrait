@@ -47,7 +47,7 @@ Here we propose to develop a platform for making trait data interoperable and re
 - [Tim Blackburn](https://tblackburn4.wixsite.com/blackburninvasion)
 
 ## Former member of ShareTrait
-- [Félix Leiva](https://github.com/felixpleiva)
+- [Félix P. Leiva](https://github.com/felixpleiva)
 
 ## Funding
 ShareTrait is a project funded by the Dutch Research Council [NWO](https://www.nwo.nl/en) through the [Open Science Fund](https://www.nwo.nl/en/researchprogrammes/open-science/open-science-fund) initiative.
