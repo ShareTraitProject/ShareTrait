@@ -34,10 +34,10 @@ Here we propose to develop a platform for making trait data interoperable and re
 
 ## Members of ShareTrait
 
+- [Félix Leiva](https://github.com/felixpleiva)
 - [Wilco Verberk](https://www.ru.nl/personen/verberk-w/) 
 - [Jacintha Ellers](https://www.amsterdamecology.nl/principal-investigators/jacintha-ellers/)
 - [Matty Berg](https://research.vu.nl/en/persons/matty-berg)
-- [Félix Leiva](https://github.com/felixpleiva)
 
 ## Collaborators of ShareTrait
 
