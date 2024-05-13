@@ -2,6 +2,8 @@
 # Script to create a phylogenetic tree from Open Tree of Life.
 
 # Code adapted by FP Leiva from: https://github.com/ASanchez-Tojar and http://blog.phytools.org/
+
+# Thanks Alfredo and Liam for sharing codes!
 # ------------------------------------------------------------------------------
 # Cleaning working space
 rm(list = ls())
@@ -37,7 +39,7 @@ taxa[taxa$approximate_match==TRUE,]
 
 # If there are typos, follow the example bellow to fix it
 
-#df$species_reported[df$species_reported == "old_name"] <- "corrected_name"
+# df$species_reported[df$species_reported == "old_name"] <- "corrected_name"
 
 # count species
 species <- sort(unique(df$species_reported))
@@ -46,7 +48,7 @@ taxa <- tnrs_match_names(names = species)
 # exploring which species return more than one match
 taxa[taxa$number_matches != 1,]
 
-#Reasons to make sure we retrieve the correct data
+# Reasons to make sure we retrieve the correct data
 ott_id_tocheck <- taxa[taxa$number_matches != 1,"ott_id"]
 
 for(i in 1:length(ott_id_tocheck)){
@@ -87,16 +89,20 @@ tree_random.fixed<-bind.tip(tree_random.fixed,tip,where=which(tree_random.fixed$
                                                      which(tree_random.fixed$tip.label==sister))])
 
 length(tree_random.fixed$tip.label)
-#pdf("Phylogenetic tree for 35 species included in ShareTrait_DataBase_v1.0.0.pdf", width=10,height=10)
-jpeg("Phylogenetic tree for 35 species included in ShareTrait_DataBase_v1.0.0.jpg", width=10,height=10,units = "in", res = 300)
+#pdf("Phylogenetic tree for 36 species included in ShareTrait_DataBase_v1.0.0.pdf", width=10,height=10)
+jpeg("Phylogenetic tree for 36 species included in ShareTrait_DataBase_v1.0.0.jpg", width=10,height=10,units = "in", res = 300)
 plot(tree_random.fixed, cex= 1, label.offset =.05, no.margin = TRUE)
 dev.off()
 
 # and as a .tre for phylogenetic corrections or ploting
-write.tree(tree_random.fixed,"Phylogenetic tree for 35 species included in ShareTrait_DataBase_v1.0.0.tre")
+write.tree(tree_random.fixed,"Phylogenetic tree for 36 species included in ShareTrait_DataBase_v1.0.0.tre")
 
 # load the dataset
 dat<-read.csv("../outputs/2_2_ShareTrait_DataBase.csv",sep = ",",header = TRUE)
+
+# fix bug of extra space in column "species_reported" in the data frame "df"
+df$species_reported
+df$species_reported <- trimws(df$species_reported, "left")
 
 # and Merge taxonomy with data
 ShareTrait_DataBase <- left_join(dat,df, by = "species_reported")
