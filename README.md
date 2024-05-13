@@ -38,9 +38,6 @@ Here we propose to develop a platform for making trait data interoperable and re
 - [Jacintha Ellers](https://www.amsterdamecology.nl/principal-investigators/jacintha-ellers/)
 - [Matty Berg](https://research.vu.nl/en/persons/matty-berg)
 
-## Former member of ShareTrait
-- [Félix Leiva](https://github.com/felixpleiva)
-
 ## Collaborators of ShareTrait
 
 - [Brunno Oliveira](https://oliveirabrunno.wordpress.com/)
@@ -49,6 +46,8 @@ Here we propose to develop a platform for making trait data interoperable and re
 - [Steven Chown](https://chownlab.com/prof-steven-chown/)
 - [Tim Blackburn](https://tblackburn4.wixsite.com/blackburninvasion)
 
+## Former member of ShareTrait
+- [Félix Leiva](https://github.com/felixpleiva)
 
 ## Funding
 ShareTrait is a project funded by the Dutch Research Council [NWO](https://www.nwo.nl/en) through the [Open Science Fund](https://www.nwo.nl/en/researchprogrammes/open-science/open-science-fund) initiative.
