@@ -34,10 +34,12 @@ Here we propose to develop a platform for making trait data interoperable and re
 
 ## Members of ShareTrait
 
-- [Félix Leiva](https://github.com/felixpleiva)
 - [Wilco Verberk](https://www.ru.nl/personen/verberk-w/) 
 - [Jacintha Ellers](https://www.amsterdamecology.nl/principal-investigators/jacintha-ellers/)
 - [Matty Berg](https://research.vu.nl/en/persons/matty-berg)
+
+## Former member of ShareTrait
+- [Félix Leiva](https://github.com/felixpleiva)
 
 ## Collaborators of ShareTrait
 
@@ -52,4 +54,4 @@ Here we propose to develop a platform for making trait data interoperable and re
 ShareTrait is a project funded by the Dutch Research Council [NWO](https://www.nwo.nl/en) through the [Open Science Fund](https://www.nwo.nl/en/researchprogrammes/open-science/open-science-fund) initiative.
 
 ## Further information
-Check out our [![Twitter URL](https://img.shields.io/twitter/url/https/twitter.com/share.svg?style=social&label=Follow%20%40share_trait)](https://twitter.com/share_trait). If you have questions concerning the project, please get in touch with the lead author of this initiative Félix P Leiva by e-mail at felixpleiva@gmail.com, or the principal investigator, Wilco Verberk, by e-mail at w.verberk@science.ru.nl.
+Check out our [![Twitter URL](https://img.shields.io/twitter/url/https/twitter.com/share.svg?style=social&label=Follow%20%40share_trait)](https://twitter.com/share_trait). If you have questions concerning the project, please get in touch with principal investigator, Wilco Verberk, by e-mail at w.verberk@science.ru.nl.
